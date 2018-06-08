@@ -92,11 +92,11 @@ msgstr ""
 #. Translators: If the user enters an invalid participant label
 #: .\templates\otree\RoomInputLabel.html:13
 msgid "Invalid entry; try again."
-msgstr ""
+msgstr "Entrada invalida; Inténtalo de nuevo"
 
 #: .\templates\otree\RoomInputLabel.html:15
 msgid "Please enter your participant label."
-msgstr ""
+msgstr "Por favor ingrese su etiqueta de participante"
 
 #: .\templates\otree\WaitPage.html:49
 msgid ""
