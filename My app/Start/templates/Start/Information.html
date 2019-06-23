@@ -1,0 +1,37 @@
+{% extends "global/Page.html" %}
+{% load otree %}
+
+{% block title %} Página de información{% endblock %}
+
+{% block content %}
+
+     <p>
+        ¡Bienvenido al laboratorio!
+    </p>
+    <p>
+       Este experimento es parte de un proyecto de investigación sobre la toma de decisiones.
+        Consta de dos sesiones que se llevarán a cabo en dos días diferentes,
+        en las que deberás realizar diferentes tipos de tareas.
+        Cada sesión durará aproximadamente 30 minutos.
+    </p>
+    <p>
+       Debes participar en las dos sesiones para poder recibir tu pago principal por el experimento.
+        Recibirás 15€ por participar, que se te pagarán al final de la segunda sesión (sólo si has participado en las dos sesiones).
+        Además, tendrás la oportunidad de ganar una cantidad de dinero extra,
+        dependiendo de las decisiones que tomes en algunas de las tareas.
+        Los detalles de estos pagos adicionales se te explicarán durante las sesiones.
+    </p>
+     <p>
+     Al comienzo de la primera sesión, te asignaremos un número anónimo que será tu identidad en el laboratorio.
+         En ambas sesiones,usarás la misma identificación de laboratorio.
+         Ten en cuenta que deberás conservar ese número de identificación para que podamos identificarte en el
+         laboratorio a lo largo de las diferentes tareas que realizarás.
+     </p>
+     <p>
+       Si has leído y entendido la información de esta página y aceptas participar en este estudio,
+         haz clic en el botón que hay debajo para continuar. Tienes derecho a abandonar el experimento en cualquier momento.
+         Si tienes alguna duda o pregunta, levanta la mano y te ayudaremos.
+    </p>
+
+{% next_button %}
+{% endblock %}

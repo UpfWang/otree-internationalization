@@ -1,0 +1,27 @@
+{% extends "global/Page.html" %}
+{% load otree %}
+
+{% block title %}
+   Información final
+{% endblock %}
+
+{% block content %}
+
+    {% formfield player.age label="Por favor, introduce tu edad:" %}
+
+    {% formfield player.gender label="Por favor, indica tu género (masculino, femenino):" %}
+
+    {% formfield player.major label="Por favor, indica qué materia estudias:" %}
+
+    {% formfield player.studyyear label="¿Cuántos años hace que estudias en la Universitat Pompeu Fabra?" %}
+
+    {% formfield player.experiencegeneral label="¿A cuántos experimentos de laboratorio has asistido?" %}
+
+    {% formfield player.experiencespecific label="¿Cuántas veces has participado en estudios como este antes? (es decir, en los que tienes que decidir cuánto quedarte tú y cuánto dar a otros)" %}
+
+    {% formfield player.nationality label="¿De qué país eres?" %}
+
+    {% next_button %}
+
+
+{% endblock %}

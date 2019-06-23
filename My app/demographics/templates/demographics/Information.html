@@ -1,0 +1,19 @@
+{% extends "global/Page.html" %}
+{% load otree %}
+
+{% block title %}Información{% endblock %}
+
+{% block content %}
+    <p>
+       ¡Este es el final de la sesión de hoy! Espera en tu asiento hasta que te proporcionemos el
+        recibo que debes completar para recibir tu pago extra de la sesión de hoy.
+    </p>
+    <p>
+      <strong>IMPORTANTE:</strong> Ten en cuenta que la segunda sesión tendrá lugar este sábado en una sala diferente (20.025).Tu sesión en ese día comenzará a las 13:00.
+    </p>
+    <p>
+      <strong>RECORDATORIO:</strong> La <strong>Tarea {{ paying_round }}</strong> ha sido aleatoriamente seleccionada.
+        Por lo tanto, tu pago adicional de la sesión de hoy es <strong>{{ final_payoff }}</strong>.
+    </p>
+
+{% endblock %}

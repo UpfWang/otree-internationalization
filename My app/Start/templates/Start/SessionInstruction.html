@@ -1,0 +1,19 @@
+{% extends "global/Page.html" %}
+{% load otree %}
+
+{% block title %} Instrucciones para la Sesión I{% endblock %}
+
+{% block content %}
+
+     <p>
+       La sesión de hoy consta de cinco tareas simples que se te explicarán en detalle antes de hacerlas.
+         Las primeras tres tareas implican dinero real. Más adelante en esta sesión,
+         una de esas tres tareas se seleccionará aleatoriamente y obtendrás un pago adicional según tus decisiones en esa tarea.
+         Por lo tanto, ten en cuenta que tus decisiones tendrán consecuencias reales que afectarán tu pago.
+    </p>
+    <p>
+       Haga clic en el botón de abajo para continuar e iniciar la primera tarea.
+    </p>
+
+{% next_button %}
+{% endblock %}
